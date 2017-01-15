@@ -3,15 +3,12 @@ export default {
     welcome: {
         initialRoute: true,
 
-        title: 'Welcome',
-        component: require('./scenes/Welcome').default,
-
-        children: {
-            example: {
-                // title: 'Child Example', // optional
-                // component: require('./scenes/NestedExample').default
-            }
-        }
+        title: 'Splash',
+        component: require('./scenes/SplashScreen').default
+    },
+    login: {
+        title: 'Login',
+        component: require('./scenes/Login').default
     },
 
     // avatars: {

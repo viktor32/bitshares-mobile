@@ -21,5 +21,3 @@ npm link react-native-material-design-styles
 npm i
 react-native run-android
 ```
-
-
