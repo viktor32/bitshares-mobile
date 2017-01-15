@@ -1,0 +1,6 @@
+[submodule "lib/react-native-material-design"]
+	path = lib/react-native-material-design
+	url = git@github.com:tet32/react-native-material-design.git
+[submodule "lib/react-native-material-design-styles"]
+	path = lib/react-native-material-design-styles
+	url = git@github.com:tet32/react-native-material-design-styles.git
