@@ -65,7 +65,7 @@ class Layout extends Component {
 							return (
 								<View
 									style={state.walletExist ? styles.scene : styles.sceneWithoutToolbar}
-									showsVerticalScrollIndicator={false}>
+									showsVerticalScrollIndicator={true}>
 									<route.component title={route.title} path={route.path} {...route.props} navigator={this.state.navigator} />
 								</View>
 							);
