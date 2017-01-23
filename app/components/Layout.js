@@ -1,7 +1,7 @@
 "use strict";
 
 import React, {Component} from 'react';
-import {AppRegistry, DrawerLayoutAndroid, Navigator, Text, View} from 'react-native';
+import {DrawerLayoutAndroid, Navigator, Text, View} from 'react-native';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import Navigation from '../scenes/Navigation';
