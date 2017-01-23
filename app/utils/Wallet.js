@@ -5,7 +5,6 @@ import {ChainStore} from "react-native-bitshares";
 class WalletUtils {
 	
 	constructor() {
-		setTimeout(() => this.restoreWallet('1111111', 'dense inwoven tripper rabitic simile yigh ekaha mado hotbox opinant huggle nobley rehoist pentite clivers helicon'), 1000);
 	}
 	
 	initData(navigator) {
